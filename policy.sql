@@ -4,3 +4,7 @@ CREATE TABLE policy (
     customer_id INT,
     premium DECIMAL(10,2)
 );
+
+INSERT INTO policy VALUES
+(1, 'POL1001', 101, 500.00),
+(2, 'POL1002', 102, 750.00);
